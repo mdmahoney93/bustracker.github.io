@@ -1,3 +1,7 @@
+html {
+  zoom: 50%;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -13,4 +17,17 @@ body {
   position: absolute;
   left: 0;
   padding: 10px;
+}
+
+button {
+  background-color: rgb(238, 214, 107);
+  color: rgb(245, 72, 124);
+  font-family: "Courier New", Courier, monospace;
+  border-radius: 5px;
+  border-color: rgb(245, 72, 124);
+}
+
+button:hover {
+  opacity: 0.8;
+  cursor: pointer;
 }
